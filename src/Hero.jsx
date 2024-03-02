@@ -3,7 +3,7 @@ export default function Hero() {
   return (
     <section className="hero-section">
       <div className="container">
-        <div className="grid grid--col-2">
+        <div className="grid grid--col-2 grid-align-center">
           <div>
             <p className="paragraph">Hello, my name is;</p>
             <h1 className="heading-primary">KALEMA RONALD</h1>
@@ -16,7 +16,9 @@ export default function Hero() {
             </p>
             <Social />
           </div>
-          <div>two</div>
+          <div>
+            <img src="picha.jpg" alt="kalema" className="hero-img" />
+          </div>
         </div>
       </div>
     </section>

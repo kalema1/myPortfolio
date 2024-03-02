@@ -48,6 +48,10 @@ html {
   margin-bottom: 2rem;
 }
 
+.grid-align-center {
+  align-items: center;
+}
+
 /**************************************************************************************/
 /****HEADER SECTION***************/
 /**************************************************************************************/
@@ -88,6 +92,7 @@ html {
 }
 .nav-list-item {
   background-color: inherit;
+  font-weight: 500;
 }
 
 a {
@@ -127,4 +132,11 @@ a:hover {
 .social-icon:hover {
   fill: var(--color-2);
   transform: scale(1.3);
+}
+
+.hero-img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 33% 67% 53% 47% / 44% 33% 67% 56%;
 }
