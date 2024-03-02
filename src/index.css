@@ -4,7 +4,7 @@
   --bg-color-0: #f5f5f5;
   --bg-color-1: white;
   --color-primary: #222;
-  --color-2: #9179f5;
+  --color-2: #5b21b6;
   --ft-family-primary: "Poppins", sans-serif;
 }
 html {
@@ -18,7 +18,39 @@ html {
   font-family: var(--ft-family-primary);
   background-color: var(--bg-color-0);
   color: var(--color-primary);
+  line-height: 1.2;
 }
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+  padding: 0 1rem;
+}
+
+.grid--col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.paragraph {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.heading-primary {
+  font-size: 4.4rem;
+  margin-bottom: 2rem;
+  color: var(--color-2);
+}
+
+.heading-secondary {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+/**************************************************************************************/
+/****HEADER SECTION***************/
+/**************************************************************************************/
 
 .header {
   background-color: var(--bg-color-1);
@@ -43,6 +75,8 @@ html {
   font-weight: 600;
   text-transform: uppercase;
   background-color: inherit;
+  cursor: pointer;
+  color: var(--color-2);
 }
 
 .nav-list {
@@ -59,8 +93,38 @@ html {
 a {
   text-decoration: none;
   background-color: inherit;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--color-2);
 }
 
 .toggle {
   display: none;
+}
+
+/**************************************************************************************/
+/****HERO SECTION***************/
+/**************************************************************************************/
+
+.hero-section {
+  margin: 9.6rem 0;
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  font-size: 3rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  fill: var(--color-2);
+  transform: scale(1.3);
 }
