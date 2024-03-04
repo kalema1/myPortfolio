@@ -10,7 +10,7 @@ export default function Hero() {
             <h2 className="heading-secondary">
               A Frontend Developer from Uganda.
             </h2>
-            <p className="paragraph">
+            <p className="paragraph margin-bottom-3rem">
               A Passionate Developer with a flair for crafting visually stunning
               and highly functional web experiences.
             </p>
