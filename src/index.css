@@ -142,4 +142,17 @@ a:hover {
   display: block;
   margin: 0 auto;
   border-radius: 33% 67% 53% 47% / 44% 33% 67% 56%;
+  animation: animate 1.5s ease-in-out infinite alternate;
+}
+@keyframes animate {
+  0% {
+    border-radius: 33% 67% 53% 47% / 44% 33% 67% 56%;
+  }
+
+  50% {
+    border-radius: 59% 41% 45% 55% / 41% 26% 74% 59%;
+  }
+  100% {
+    border-radius: 51% 49% 48% 52% / 41% 51% 49% 59%;
+  }
 }
