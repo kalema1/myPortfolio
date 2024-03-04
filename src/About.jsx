@@ -7,8 +7,12 @@ export default function About() {
   return (
     <section className="about-section">
       <div className="container">
-        <div className="grid grid--col-2">
-          <div>one</div>
+        <div className="grid grid--col-2 grid-align-center">
+          <div>
+            <div>
+              <img className="about-me-img" src="about.jpg" alt="about me" />
+            </div>
+          </div>
           <div>
             <h2 className="heading-secondary">About me</h2>
             <h3 className="heading-tertiary">

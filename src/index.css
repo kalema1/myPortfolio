@@ -191,3 +191,8 @@ a:hover {
 .skill-img.node-img {
   width: 5.4rem;
 }
+
+.about-me-img {
+  width: 100%;
+  border-radius: 2rem;
+}
