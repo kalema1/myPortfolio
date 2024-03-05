@@ -11,7 +11,7 @@ export default function ProjectList() {
             Please take a look at the projects have worked on.
           </p>
         </div>
-        <ul className="grid grid--col-2">
+        <ul className="grid grid--col-3">
           {projectDataList.map((item) => (
             <ProjectItem item={item} key={item.id} />
           ))}

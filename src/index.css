@@ -23,14 +23,19 @@ html {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+
   padding: 0 1rem;
 }
 
 .grid--col-2 {
   grid-template-columns: repeat(2, 1fr);
+  gap: 9.6rem;
 }
 
+.grid--col-3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6.4rem;
+}
 .paragraph {
   font-size: 1.8rem;
   margin-bottom: 2rem;
