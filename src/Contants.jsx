@@ -34,7 +34,7 @@ export default function Contants() {
     setMessage("");
   }
   return (
-    <section className="contacts-section">
+    <section className="contacts-section" id="contact">
       <div className="container">
         <div className="heading-container">
           <h2 className="heading-secondary">Get In Touch</h2>

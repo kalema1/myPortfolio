@@ -5,7 +5,7 @@ import Skills from "./Skills";
  */
 export default function About() {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <div className="container">
         <div className="grid grid--col-2 grid-align-center">
           <div>

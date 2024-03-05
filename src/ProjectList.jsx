@@ -3,7 +3,7 @@ import { projectDataList } from "./data/data";
 
 export default function ProjectList() {
   return (
-    <section className="project-section">
+    <section className="project-section" id="projects">
       <div className="container">
         <div className="heading-container">
           <h2 className="heading-secondary">My Amazing Work</h2>

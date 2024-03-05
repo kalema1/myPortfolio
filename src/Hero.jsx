@@ -1,7 +1,7 @@
 import Social from "./Social";
 export default function Hero() {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="home">
       <div className="container">
         <div className="grid grid--col-2 grid-align-center">
           <div>
