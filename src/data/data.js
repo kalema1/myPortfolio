@@ -16,7 +16,7 @@ export const projectDataList = [
     projectDemoLink: "https://gpa-elavator.firebaseapp.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Dav Safaris Application",
     description:
       "This is a Tour and Travel Agency appplication for Dav Safaris based in Uganda. Offers a wide variety of Tour services across East Africa. For a live Demo",

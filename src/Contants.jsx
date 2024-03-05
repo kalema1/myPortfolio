@@ -17,6 +17,10 @@ export default function Contants() {
   function handleSendEmail(event) {
     event.preventDefault();
 
+    if (!name || !email || !message) {
+      throw new Error("input fields are required");
+    }
+
     emailjs
       .sendForm("service_kdkd3gh", "template_2uhrljg", form.current, {
         publicKey: "lNx1paLr6HW7LUWvl",
