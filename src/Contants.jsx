@@ -1,12 +1,19 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 /**
  * Contants component
  */
 export default function Contants() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   const form = useRef();
 
+  /**
+   * sends email on submit
+   * @param {event} - submit event
+   */
   function handleSendEmail(event) {
     event.preventDefault();
 
@@ -22,6 +29,9 @@ export default function Contants() {
           console.log("FAILED...", error.text);
         }
       );
+    setName("");
+    setEmail("");
+    setMessage("");
   }
   return (
     <section className="contacts-section">
@@ -30,7 +40,7 @@ export default function Contants() {
           <h2 className="heading-secondary">Get In Touch</h2>
           <p className="paragraph">
             Am open to new opportunities for growth in technology. My inbox is
-            always open
+            always open.
           </p>
         </div>
         <div className="contact-form-container">
@@ -41,6 +51,8 @@ export default function Contants() {
               type="text"
               name="user_name"
               placeholder="Full Name"
+              value={name}
+              onChange={(event) => setName(event.target.value)}
             />
             <label className="paragraph">Email</label>
             <input
@@ -48,9 +60,16 @@ export default function Contants() {
               type="email"
               name="user_email"
               placeholder="Email"
+              value={email}
+              onChange={(event) => setEmail(event.target.value)}
             />
             <label className="paragraph">Message</label>
-            <textarea className="text-area" name="message" />
+            <textarea
+              className="text-area"
+              name="message"
+              value={message}
+              onChange={(event) => setMessage(event.target.value)}
+            />
             <button className="btn">Send</button>
           </form>
         </div>
