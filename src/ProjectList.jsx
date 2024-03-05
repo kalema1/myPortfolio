@@ -5,7 +5,7 @@ export default function ProjectList() {
   return (
     <section className="project-section">
       <div className="container">
-        <div className="project-heading-container">
+        <div className="heading-container">
           <h2 className="heading-secondary">My Amazing Work</h2>
           <p className="paragraph margin-bottom-3rem">
             Please take a look at the projects have worked on.
