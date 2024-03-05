@@ -11,7 +11,7 @@ export const projectDataList = [
     id: 2,
     title: "GPA Elevetor Application",
     description:
-      "This appication enables the  university students to improve their GPA(Grading Points Average). It enables users access all the reliable resources with no limit, that can be used to improve GPA. For a live Demo",
+      "This appication enables the  university students to improve their GPA(Grading Points Average). It enables users access all the reliable resources with no limit. For a live Demo",
     image: "gpa.PNG",
     projectDemoLink: "https://gpa-elavator.firebaseapp.com/",
   },
