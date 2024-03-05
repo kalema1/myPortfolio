@@ -1,6 +1,7 @@
 import About from "./About";
 import Header from "./Header";
 import Hero from "./Hero";
+import ProjectList from "./ProjectList";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Header />
       <Hero />
       <About />
+      <ProjectList />
     </>
   );
 }

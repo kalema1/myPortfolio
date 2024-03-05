@@ -196,3 +196,34 @@ a:hover {
   width: 100%;
   border-radius: 2rem;
 }
+
+/**************************************************************************************/
+/****PROJECT SECTION***************/
+/**************************************************************************************/
+.project-section {
+  margin: 14.4rem 0;
+}
+
+.project-heading-container {
+  text-align: center;
+}
+
+.item-img-container {
+  margin-bottom: 3rem;
+}
+.item-img {
+  width: 100%;
+  border-radius: 1rem;
+}
+li::marker {
+  content: none;
+}
+
+.project-url {
+  color: var(--color-2);
+  transition: 0.3s;
+}
+
+.project-url:hover {
+  color: var(--color-primary);
+}
