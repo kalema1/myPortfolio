@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header className="header">
-      <div className="container">
+      <div className="container position-fixed">
         <nav className="nav-bar">
           <div className="logo">kalema</div>
           <div className="nav-list">
