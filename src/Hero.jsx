@@ -16,7 +16,7 @@ export default function Hero() {
             </p>
             <Social />
           </div>
-          <div>
+          <div className="hero-img-container">
             <img src="picha.jpg" alt="kalema" className="hero-img" />
           </div>
         </div>
