@@ -53,4 +53,9 @@
   .toggle {
     display: block;
   }
+
+  .skills-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
