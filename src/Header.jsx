@@ -25,7 +25,7 @@ export default function Header() {
                 <a href="#projects">Projects</a>
               </li>
               <li className="nav-list-item">
-                <a href="#contact">Contant</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
