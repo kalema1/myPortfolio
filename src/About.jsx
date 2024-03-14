@@ -19,14 +19,14 @@ export default function About() {
               A dedicated Frontend Developer based in Uganda.
             </h3>
             <p className="paragraph margin-bottom-3rem">
-              I have an impressive arsenal of skills in JavaScript, HTML, CSS,
-              React, Tailwind, SaSS. I excel in designing and maintaining
-              responsive applications that offer a smooth user experience. My
-              Expertise lies in crafting dynamic, engaging interfaces through
-              writing clean and optimized code and utilizing cutting-edge
-              development tools and techniques. I am a very good team player who
-              thrieves in collaborating with cross-functional teams to produce
-              outstanding applications.
+              I have an impressive arsenal of skills in JavaScript, TypeScript
+              HTML, CSS, React, Tailwind, SaSS. I excel in designing and
+              maintaining responsive applications that offer a smooth user
+              experience. My Expertise lies in crafting dynamic, engaging
+              interfaces through writing clean and optimized code and utilizing
+              cutting-edge development tools and techniques. I am a very good
+              team player who thrives in collaborating with cross-functional
+              teams to produce outstanding applications.
             </p>
             <Skills />
           </div>
