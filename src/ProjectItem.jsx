@@ -4,7 +4,7 @@
  */
 export default function ProjectItem({ item }) {
   return (
-    <li>
+    <li className="list-item">
       <div>
         <div className="item-img-container">
           <img className="item-img" src={item.image} alt={item.title} />

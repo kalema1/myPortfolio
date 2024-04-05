@@ -258,15 +258,16 @@ a:hover {
   padding: 14.4rem 0;
 }
 
+.list-item {
+  list-style: none;
+}
+
 .item-img-container {
   margin-bottom: 3rem;
 }
 .item-img {
   width: 100%;
   border-radius: 1rem;
-}
-li::marker {
-  content: none;
 }
 
 .project-url {
