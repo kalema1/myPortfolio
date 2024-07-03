@@ -3,9 +3,9 @@ export const projectDataList = [
     id: 1,
     title: "Property Pulse",
     description:
-      "This is a web application to help you find your next Rental Property.User can search for a property, logged in user can add a property for rent, share a property, List properties available for rent. The user can contact the owner of the property. This application has a shere feature, to allow users share properties on social media.",
+      "This is a web application to help you find your next Rental Property.User can search for a property, logged in user can add a property for rent, share a property. For a live Demo",
     image: "properties.PNG",
-    projectDemoLink: "https://dev-safaris.web.app/",
+    projectDemoLink: "https://property-pulse-brown.vercel.app/",
   },
   {
     id: 2,
