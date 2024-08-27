@@ -29,6 +29,12 @@ export default function Skills() {
           alt="Tailwind CSS"
           title="Tailwind CSS"
         />
+        <img
+          className="skill-img"
+          src="ts.png"
+          alt="TypeScript"
+          title="TypeScript"
+        />
       </div>
     </div>
   );
