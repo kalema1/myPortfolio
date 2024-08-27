@@ -8,7 +8,7 @@ export default function Hero() {
             <p className="paragraph">Hello, my name is;</p>
             <h1 className="heading-primary">KALEMA RONALD</h1>
             <h2 className="heading-secondary">
-              A Frontend Developer from Uganda.
+              A Software Developer from Uganda.
             </h2>
             <p className="paragraph margin-bottom-3rem">
               A Passionate Developer with a flair for crafting visually stunning
